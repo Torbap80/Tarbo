@@ -1,0 +1,95 @@
+*{
+margin: 0;
+padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p,ul{
+margin: 0;
+padding: 0;
+}
+header{
+}
+.header_call{
+padding: 30px 20px;
+display: flex;
+margin-right: ;
+}
+.logo{
+margin-left: 13%;
+margin-top: -10px;
+}
+.navpoint{
+display: flex;
+margin-left: 190px;
+
+}
+.navpoint ul{
+display: flex;
+text-decoration: none;
+text-transform: uppercase;
+list-style: none;
+margin-right: 20px;
+}
+.navpoint ul li{
+
+}
+.navpoint ul li a{
+margin-right: 30px;
+text-decoration: none;
+align-items: center;
+display: flex;
+color: #2d3950;
+font-weight: 600;
+font-size: 16px;
+}
+.navpoint ul li a:hover{
+color: blue;
+}
+.banner{
+background-image: url('../images/kill.jpg');
+min-height: 90vh;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+.banner_call{
+text-align: center;
+padding-top: 12%;
+}
+.banner h1{
+color: #fff;
+font-size: 60px;
+}
+.banner span{
+display: block;
+border: solid 1px #15a4fa;
+width: 33%;
+margin-left: 34%;
+}
+.banner p{
+color: #15a4fa;
+margin-top: 20px;
+margin-bottom: 45px;
+}
+.banner a{
+border: solid 1px #15a4fa;
+padding: 10px 15px;
+margin-top: 30px;
+text-decoration: none;
+text-transform: capitalize;
+color: #fff;
+}
+.banner a:hover{
+background-color: #15a4fa;
+border: solid 1px #fff;
+transition:. 5s all ease-in-out;
+}
+.banner i{
+color: #fff;
+font-size: 40px;
+position: absolute;
+transform: translate(-50%, 0%);
+/* margin-top: 80px; */
+left: 50%;
+bottom: 20%;
+animation: ;
+}
